@@ -1,0 +1,18 @@
+package dorColetiva;
+
+public class PulaNumeroCinco {
+
+	public static void main(String[] args) {
+		
+		for(int valor = 1; valor < 10; valor++) {
+			
+			
+			if (valor == 5) {
+				continue;
+			}
+			System.out.println(valor);
+		}
+
+	}
+
+}
